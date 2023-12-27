@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingRecordType", "UsingRecordType\UsingRecordType.csproj", "{B1CB5395-0D34-422E-B26B-AD79F67EBC18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingRecordType", "UsingRecordType\UsingRecordType.csproj", "{B1CB5395-0D34-422E-B26B-AD79F67EBC18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryConstructor", "PrimaryConstructor\PrimaryConstructor.csproj", "{1B368E99-41A7-4AF6-83C8-ADCFBB99739F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimaryConstructor", "PrimaryConstructor\PrimaryConstructor.csproj", "{1B368E99-41A7-4AF6-83C8-ADCFBB99739F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{F651E67D-F424-460F-A2C8-93D66C7DA505}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{F651E67D-F424-460F-A2C8-93D66C7DA505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionExpression", "CollectionExpression\CollectionExpression.csproj", "{1DD95562-5AAA-40C8-A04D-223F64749E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionExpression", "CollectionExpression\CollectionExpression.csproj", "{1DD95562-5AAA-40C8-A04D-223F64749E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultLambdaParameters", "DefaultLambdaParameters\DefaultLambdaParameters.csproj", "{641CA702-499C-43E3-BB84-9E9A52149041}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1DD95562-5AAA-40C8-A04D-223F64749E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD95562-5AAA-40C8-A04D-223F64749E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD95562-5AAA-40C8-A04D-223F64749E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641CA702-499C-43E3-BB84-9E9A52149041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641CA702-499C-43E3-BB84-9E9A52149041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641CA702-499C-43E3-BB84-9E9A52149041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641CA702-499C-43E3-BB84-9E9A52149041}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
